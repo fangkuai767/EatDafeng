@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '几天不见，这么拉了';
-    if (score <= 60) return '几天不见，这么摇摆';
-    if (score <= 100) return '几天不见，这么鬼鬼';
-    if (score <= 150) return '鬼鬼鬼鬼鬼！';
-    return '你就是摇摆羊本人？';
+    if (score <= 30) return '吾乃大疯王也';
+    if (score <= 60) return '吾必定要为吾之子民报仇';
+    if (score <= 100) return '吾必定要打败你';
+    if (score <= 150) return '吾败了';
+    return '吾将大疯王一职交付与你';
 }
 
 function toStr(obj) {
